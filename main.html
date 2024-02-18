@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="runtime.js"></script>
+</head>
+<body>
+
+<div id="console"></div>
+
+<script type="text/javascript" defer>
+	consolePreElement = document.getElementById("console");
+	
+	odin.runWasm("odin-playground.wasm", consolePreElement);
+</script>
+</body>
+</html>
